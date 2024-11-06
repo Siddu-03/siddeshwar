@@ -11,9 +11,9 @@ st.title("Interactive Visualizations with Plotly and Streamlit")
 
 # --- Input for Author Information ---
 st.sidebar.header("Visualization Skill Workshop - Plotly")
-name = st.sidebar.text_input("Enter Your Name")  # Updated label
-usn = st.sidebar.text_input("Enter Your USN")     # Updated label
-instructor_name = st.sidebar.text_input("Enter Instructor's Name")  # Updated label
+name = st.sidebar.text_input("Siddeshwarprasad K R")  # Updated label
+usn = st.sidebar.text_input("46")     # Updated label
+instructor_name = st.sidebar.text_input("Ashwini")  # Updated label
 
 
 # --- Load Dataset ---
