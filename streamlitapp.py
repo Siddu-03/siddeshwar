@@ -17,15 +17,6 @@ usn = st.sidebar.text_input("46")
 instructor_name = st.sidebar.text_input("Ashwini")
 
 
-# Display author information if provided
-if name and usn and instructor_name:
-    st.markdown(
-        f"<h5 style='color: teal;'>Created by:</h5>"
-        f"<p style='color: white;'>{name} (USN: {usn})</p>"
-        f"<p style='color: white;'>Instructor: {instructor_name}</p>",
-        unsafe_allow_html=True
-    )
-
 
 # --- Load Dataset ---
 tips = sns.load_dataset('tips')  # Loading the tips dataset
